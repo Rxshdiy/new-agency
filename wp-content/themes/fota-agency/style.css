@@ -1,0 +1,23 @@
+/*
+Theme Name: Fota Agency
+Theme URI: https://cozythemes.com/fota-agency/
+Author: CozyThemes
+Author URI: https://cozythemes.com/
+Description: Fota Agency serves as the child theme of FotaWP, inheriting all the features of FotaWP. It has been specifically designed for the agency niche and offers block-based full site editing capabilities. Its minimal and clean design allows users to create various types of agency website, such as startup, tech company, counselling, consulting any other kind of cooperative business site and more. For further information about Fota Agency, kindly explore the details available at https://cozythemes.com/fota-agency/.
+Template: fotawp
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 6.2
+Requires PHP: 7.0
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: fota-agency
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+*/
+.wp-block-buttons.fotaagency-buttons-with-icon .wp-block-button__link img {
+  margin-bottom: -8px;
+}
+nav.wp-block-navigation ul li a:hover,
+.wp-block-button.is-style-outline a:hover {
+  color: var(--wp--preset--color--primary) !important;
+}
